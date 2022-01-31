@@ -4,7 +4,7 @@ Generate unique yet persisted keys for `.map()` functions in React, allowing Rea
 
 ## Note
 
-**Note**: You need one instance of useKeys() per `.map()` function call, otherwise you'll end up with duplicates.
+You need one instance of useKeys() per `.map()` function call, otherwise you'll end up with duplicates.
 
 ## Usage
 
