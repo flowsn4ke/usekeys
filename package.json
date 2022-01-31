@@ -1,0 +1,32 @@
+{
+  "name": "usekeys",
+  "version": "0.1.0",
+  "source": "src/index.ts",
+  "types": "dist/index.d.ts",
+  "main": "dist/index.js",
+  "module": "dist/index.modern.js",
+  "description": "A simple hook to generate unique keys in react!",
+  "keywords": [
+    "keys",
+    "react",
+    "hook"
+  ],
+  "repository": "https://github.com/flowsn4ke/usekeys",
+  "author": {
+    "name": "Theo Louvel",
+    "url": "https://theolouvel.dev"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@types/react": "^17.0.38",
+    "microbundle": "^0.14.2"
+  },
+  "scripts": {
+    "build": "microbundle --jsx react --no-sourcemap --compress",
+    "start": "microbundle --jsx react -w --no-compress"
+  },
+  "peerDependencies": {
+    "react": ">=16.8.0",
+    "react-dom": ">=16.8.0"
+  }
+}
