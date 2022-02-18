@@ -9,8 +9,7 @@ You need one instance of useKeys() per `.map()` function call, otherwise you'll 
 ## Usage
 
 ```jsx
-import { useWhyDidYouUpdate } from 'hookbox'
-import MyComponent from 'hookbox'
+import useKeys from '@flowsn4ke/usekeys'
 
 export function MyComponent(props) {
   const k = useKeys()
@@ -18,7 +17,7 @@ export function MyComponent(props) {
   return <>
   {new Array(42).fill(null).map(value, i) => {
     return <div key={k(i)}>
-    unique key number {i}
+    unique key number {i}: {k(i)}
     </div>}}
   </>
 }
