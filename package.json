@@ -29,7 +29,5 @@
     "react": ">=16.8.0",
     "react-dom": ">=16.8.0"
   },
-  "dependencies": {
-    "nanoid": "^3.2.0"
-  }
+  "dependencies": {}
 }
