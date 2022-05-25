@@ -1,5 +1,5 @@
 import { useRef } from "react"
-import Snowflake from "../libs/snowflake"
+import Snowflake from "./libs/snowflake"
 
 export default function useKeys() {
   const keys = useRef([])
